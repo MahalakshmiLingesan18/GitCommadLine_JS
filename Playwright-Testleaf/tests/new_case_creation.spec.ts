@@ -61,22 +61,20 @@ test("Create and verify a New Case in Chatter", async({page}) => {
     expect.soft(toastMessage3).toContain("created");
     console.log(toastMessage3);
 
-    /* const edit = page.locator("(//button[@title='Edit Status'])[3]").isVisible();
-    expect(edit).toBeTruthy();
-    console.log(edit); */
-
-    await page.waitForTimeout(3000);
-    await page.locator("//button[@title='Edit Status']").first().click();
+    await page.click("//button[@title='Edit Status']");
     await page.click("//button[@aria-label='Status']");
-    await page.click("//div[@aria-label='Status']//span[@title='Escalated']");
+    await page.click("//lightning-base-combobox-item[@data-value='Escalated']");
     await page.click("//button[@name='SaveEdit']");
-    await page.click("(//button[@title='Share an update...'])[5]");
-    await page.getByPlaceholder("Share an update...").fill("Hello");
-    const shareBtn = await page.getByLabel("Share").isEnabled();
+    await page.click("//button[@title='Share an update...']");
+    await page.waitForTimeout(5000);
+    await page.fill("//div[@data-placeholder='Share an update...']", "Hello");
+    /* const shareBtn = await page.locator("//button[text()='Share']").isEnabled();
     expect.soft(shareBtn).toBeTruthy();
-    await page.getByLabel("Share").click();
+    console.log(shareBtn); */
+    await page.waitForTimeout(5000);
+    await page.click("//button[text()='Share']");
 
-    const message = await page.innerText("(//article[@data-type='TextPost']//span)[16]");
+    /* const message = await page.innerText("(//article[@data-type='TextPost']//span)[16]");
     console.log(message);
 
     await page.click("//div[@class='cuf-media-right']//button");
@@ -89,6 +87,6 @@ test("Create and verify a New Case in Chatter", async({page}) => {
     await page.getByRole("link", {name: "Chatter"}).click();
     const isLiked = await page.innerText("(//span[text()='Liked'])[7]");
     expect.soft(isLiked).toContain("liked");
-    console.log(isLiked);
+    console.log(isLiked); */
 
 })

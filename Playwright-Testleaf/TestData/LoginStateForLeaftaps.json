@@ -1,0 +1,175 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "AA5A4CD366E3D7779FE437AC94EB06B7.jvm1",
+      "domain": "leaftaps.com",
+      "path": "/opentaps",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OFBiz.Visitor",
+      "value": "1520798",
+      "domain": "leaftaps.com",
+      "path": "/",
+      "expires": 1784533322.857388,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ai_user",
+      "value": "mUI7AMQIacRZMGCe1Ndopc|2025-07-20T07:42:03.602Z",
+      "domain": "leaftaps.com",
+      "path": "/",
+      "expires": 1784533323.603372,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CLID",
+      "value": "d134f7bcb5374a0c93a0824c226a347a.20250720.20260720",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1784533323.612399,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "1jlj67e%7C2%7Cfxr%7C0%7C2027",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1784533323,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_BFM17W6LPR",
+      "value": "GS2.1.s1752997323$o1$g0$t1752997323$j60$l0$h0",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1787557323.872465,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ai_session",
+      "value": "vjxrkL5W4nXLIYsavnk0le|1752997324001|1752997324001",
+      "domain": "leaftaps.com",
+      "path": "/",
+      "expires": 1752999124.002232,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_XC5DRQT2CH",
+      "value": "GS2.1.s1752997324$o1$g0$t1752997324$j60$l0$h0",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1787557324.024917,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1389508951.1752997324",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1787557324.186104,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.131556213.1752997324",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1753083724,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_gtag_UA_241053063_1",
+      "value": "1",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1752997384,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "1eyqoau%7C1752997324463%7C1%7C1%7Ck.clarity.ms%2Fcollect",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1753083724,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SM",
+      "value": "T",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "1089826C18556D6E07C294431C5563E6",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1786693325.487347,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "39F84F629A2668A02361594D9B4469A6",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1786693325.621154,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1753602125.621222,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "39F84F629A2668A02361594D9B4469A6",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1786693325.621236,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}
